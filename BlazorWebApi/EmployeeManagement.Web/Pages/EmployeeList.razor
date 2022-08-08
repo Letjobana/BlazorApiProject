@@ -12,35 +12,31 @@
             <th>Email</th>
             <th>Date Of Birth</th>
             <th>Gender</th>
-            <th>Department</th>
         </tr>
     </thead>
     <tbody>
-        @foreach(var employee in Employees)
+        @foreach (var employee in Employees)
         {
-        <tr>
-            <th scope="row">
-                @employee.EmployeeId
-            </th>
-            <td>
-                @employee.FirstName
-            </td>
-            <td>
-                @employee.LastName
-            </td>
-            <td>
-                @employee.Email
-            </td>
-            <td>
-                @employee.DateOfBirth
-            </td>
-            <td>
-                @employee.Gender
-            </td>
-            <td>
-                @employee.Department.DepartmentName
-            </td>
-        </tr>
+            <tr>
+                <th scope="row">
+                    @employee.EmployeeId
+                </th>
+                <td>
+                    @employee.FirstName
+                </td>
+                <td>
+                    @employee.LastName
+                </td>
+                <td>
+                    @employee.Email
+                </td>
+                <td>
+                    @employee.DateOfBirth
+                </td>
+                <td>
+                    @employee.Gender
+                </td>
+            </tr>
         }
     </tbody>
 </table>

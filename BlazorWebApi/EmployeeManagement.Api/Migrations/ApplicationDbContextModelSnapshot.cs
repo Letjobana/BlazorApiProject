@@ -44,7 +44,7 @@ namespace EmployeeManagement.Api.Migrations
                     b.Property<DateTime>("DateOfBirth")
                         .HasColumnType("datetime2");
 
-                    b.Property<int?>("DepartmentId")
+                    b.Property<int>("DepartmentId")
                         .HasColumnType("int");
 
                     b.Property<string>("Email")
@@ -64,18 +64,7 @@ namespace EmployeeManagement.Api.Migrations
 
                     b.HasKey("EmployeeId");
 
-                    b.HasIndex("DepartmentId");
-
                     b.ToTable("Employees");
-                });
-
-            modelBuilder.Entity("EmployeeManagement.Models.Employee", b =>
-                {
-                    b.HasOne("EmployeeManagement.Models.Department", "Department")
-                        .WithMany()
-                        .HasForeignKey("DepartmentId");
-
-                    b.Navigation("Department");
                 });
 #pragma warning restore 612, 618
         }

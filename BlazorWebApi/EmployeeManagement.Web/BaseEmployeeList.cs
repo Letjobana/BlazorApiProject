@@ -24,7 +24,6 @@ namespace EmployeeManagement.Web
                 Email = "mahlodimasite@gmail.com",
                 DateOfBirth = new DateTime(1990, 01, 01),
                 Gender = Gender.Female,
-                Department = new Department { DepartmentId = 3, DepartmentName = "IT" }
 
             };
             Employee e1 = new Employee
@@ -35,7 +34,6 @@ namespace EmployeeManagement.Web
                 Email = "john@gmail.com",
                 DateOfBirth = new DateTime(1990, 01, 03),
                 Gender = Gender.Female,
-                Department = new Department { DepartmentId = 1, DepartmentName = "HR" }
 
             };
             Employees = new List<Employee>
