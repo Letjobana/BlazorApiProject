@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Developer 2\\Documents\\Document\\Blazor Project\\Blazor Api Project\\BlazorWebApi\\EmploymentManagement.Models\\EmployeeManagement.Models.csproj",
-      "projectName": "EmployeeManagement.Models",
-      "projectPath": "C:\\Users\\Developer 2\\Documents\\Document\\Blazor Project\\Blazor Api Project\\BlazorWebApi\\EmploymentManagement.Models\\EmployeeManagement.Models.csproj",
+      "projectUniqueName": "C:\\Users\\Developer 2\\Documents\\Document\\Blazor Project\\Blazor Api Project\\BlazorWebApi\\EmployeeManagement.Web\\EmployeeManagement.Web.csproj",
+      "projectName": "EmployeeManagement.Web",
+      "projectPath": "C:\\Users\\Developer 2\\Documents\\Document\\Blazor Project\\Blazor Api Project\\BlazorWebApi\\EmployeeManagement.Web\\EmployeeManagement.Web.csproj",
       "packagesPath": "C:\\Users\\Developer 2\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Developer 2\\Documents\\Document\\Blazor Project\\Blazor Api Project\\BlazorWebApi\\EmploymentManagement.Models\\obj\\",
+      "outputPath": "C:\\Users\\Developer 2\\Documents\\Document\\Blazor Project\\Blazor Api Project\\BlazorWebApi\\EmployeeManagement.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -60,6 +60,9 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }

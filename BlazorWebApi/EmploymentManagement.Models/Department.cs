@@ -1,4 +1,4 @@
-﻿namespace EmploymentManagement.Models
+﻿namespace EmployeeManagement.Models
 {
     public class Department
     {
