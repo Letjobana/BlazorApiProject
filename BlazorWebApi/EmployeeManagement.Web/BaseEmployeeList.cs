@@ -22,18 +22,18 @@ namespace EmployeeManagement.Web
                 FirstName = "Suzan",
                 LastName = "Masite",
                 Email = "mahlodimasite@gmail.com",
-                DateOfBirth = new DateTime(1990 / 01 / 01),
+                DateOfBirth = new DateTime(1990, 01, 01),
                 Gender = Gender.Female,
                 Department = new Department { DepartmentId = 3, DepartmentName = "IT" }
 
             };
             Employee e1 = new Employee
             {
-                EmployeeId = 1,
+                EmployeeId = 2,
                 FirstName = "John",
                 LastName = "Smith",
                 Email = "john@gmail.com",
-                DateOfBirth = new DateTime(1990 / 01 / 03),
+                DateOfBirth = new DateTime(1990, 01, 03),
                 Gender = Gender.Female,
                 Department = new Department { DepartmentId = 1, DepartmentName = "HR" }
 
