@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "EmployeeManagement.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/EmployeeManagement.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EmployeeManagement.Models.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "EmployeeManagement.Models/1.0.0": {
+      "type": "project",
+      "path": "../EmploymentManagement.Models/EmployeeManagement.Models.csproj",
+      "msbuildProject": "../EmploymentManagement.Models/EmployeeManagement.Models.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "EmployeeManagement.Models >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Developer 2\\.nuget\\packages\\": {},
@@ -37,7 +56,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Developer 2\\Documents\\Document\\Blazor Project\\Blazor Api Project\\BlazorWebApi\\EmploymentManagement.Models\\EmployeeManagement.Models.csproj": {
+              "projectPath": "C:\\Users\\Developer 2\\Documents\\Document\\Blazor Project\\Blazor Api Project\\BlazorWebApi\\EmploymentManagement.Models\\EmployeeManagement.Models.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

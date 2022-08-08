@@ -1,0 +1,11 @@
+C:\Users\Developer 2\Documents\Document\Blazor Project\Blazor Api Project\BlazorWebApi\EmploymentManagement.Models\bin\Debug\net5.0\EmployeeManagement.Models.deps.json
+C:\Users\Developer 2\Documents\Document\Blazor Project\Blazor Api Project\BlazorWebApi\EmploymentManagement.Models\bin\Debug\net5.0\EmployeeManagement.Models.dll
+C:\Users\Developer 2\Documents\Document\Blazor Project\Blazor Api Project\BlazorWebApi\EmploymentManagement.Models\bin\Debug\net5.0\ref\EmployeeManagement.Models.dll
+C:\Users\Developer 2\Documents\Document\Blazor Project\Blazor Api Project\BlazorWebApi\EmploymentManagement.Models\bin\Debug\net5.0\EmployeeManagement.Models.pdb
+C:\Users\Developer 2\Documents\Document\Blazor Project\Blazor Api Project\BlazorWebApi\EmploymentManagement.Models\obj\Debug\net5.0\EmployeeManagement.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Developer 2\Documents\Document\Blazor Project\Blazor Api Project\BlazorWebApi\EmploymentManagement.Models\obj\Debug\net5.0\EmployeeManagement.Models.AssemblyInfoInputs.cache
+C:\Users\Developer 2\Documents\Document\Blazor Project\Blazor Api Project\BlazorWebApi\EmploymentManagement.Models\obj\Debug\net5.0\EmployeeManagement.Models.AssemblyInfo.cs
+C:\Users\Developer 2\Documents\Document\Blazor Project\Blazor Api Project\BlazorWebApi\EmploymentManagement.Models\obj\Debug\net5.0\EmployeeManagement.Models.csproj.CoreCompileInputs.cache
+C:\Users\Developer 2\Documents\Document\Blazor Project\Blazor Api Project\BlazorWebApi\EmploymentManagement.Models\obj\Debug\net5.0\EmployeeManagement.Models.dll
+C:\Users\Developer 2\Documents\Document\Blazor Project\Blazor Api Project\BlazorWebApi\EmploymentManagement.Models\obj\Debug\net5.0\ref\EmployeeManagement.Models.dll
+C:\Users\Developer 2\Documents\Document\Blazor Project\Blazor Api Project\BlazorWebApi\EmploymentManagement.Models\obj\Debug\net5.0\EmployeeManagement.Models.pdb
