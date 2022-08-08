@@ -23,14 +23,16 @@ namespace EmployeeManagement.Api.Repositories.Concretes
 
         }
 
-        public async void DeleteEmployee(int employeeId)
+        public async Task<Employee> DeleteEmployee(int employeeId)
         {
             var result = await _context.Employees.FirstOrDefaultAsync(x => x.EmployeeId == employeeId);
             if (result != null)
             {
                 _context.Employees.Remove(result);
                 await _context.SaveChangesAsync();
+                return result;
             }
+            return null;
         }
 
         public async Task<Employee> GetEmployee(int employeeId)
